@@ -12,16 +12,16 @@ export class GithubComponent implements OnInit {
   repos: any[];
   username: string;
 
-  constructor(private githubService: GithubService) {
-    this.githubService.getUser().subscribe(user => {
-      console.log(user);
-      this.user = user;
-    });
-    this.githubService.getRepos().subscribe(repos => {
-      console.log(repos);
-      this.repos = repos;
-    });
-  }
+  // constructor(private githubService: GithubService) {
+  //   this.githubService.getUser().subscribe(user => {
+  //     console.log(user);
+  //     this.user = user;
+  //   });
+  //   this.githubService.getRepos().subscribe(repos => {
+  //     console.log(repos);
+  //     this.repos = repos;
+  //   });
+  // }
 
   findUser() {
     this.githubService.updateUser(this.username);
@@ -32,7 +32,7 @@ export class GithubComponent implements OnInit {
     });
 
     this.githubService.getRepos().subscribe(repos => {
-      // console.log(repos);
+      
       this.repos = repos;
     });
   }
