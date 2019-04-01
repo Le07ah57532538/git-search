@@ -8,9 +8,9 @@ import { environment } from '../environments/environment';
 })
 
 export class GithubService {
- apiUrl = environment.apiUrl;
- private username: string;
- private repo: string;
+    apiUrl = environment.apiUrl;
+    private username: string;
+    private repo: string;
 
 
  constructor(private http: HttpClient) {
