@@ -8,6 +8,7 @@
 | Behaviour | Input | Output |
 | :-------: | :---: | :----: |
 |oeiugydft | oihugytcfgh |ihugyfticgvbh|
+|hugiyutfyv | hugyftidr |iohguyb|
 
 ##  Setup/Installation Requirements
 
