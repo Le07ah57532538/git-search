@@ -31,13 +31,13 @@ export class GithubComponent implements OnInit {
       this.user = user;
     });
 
-//     this.githubService.getRepos().subscribe(repos => {
+    this.githubService.getRepos().subscribe(repos => {
       
-//       this.repos = repos;
-//     });
-//   }
+      this.repos = repos;
+    });
+  }
 
-//   ngOnInit() {
-//   }
+  ngOnInit() {
+  }
 
-// }
+}
